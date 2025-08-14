@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.tab-active {
+  @apply border-b-2 border-pk-gold font-bold;
+}
+
+.btn-gold {
+  @apply bg-pk-gold text-pk-dark font-bold py-2 px-4 rounded hover:bg-opacity-90 transition-all;
+}
+
+.btn-outline {
+  @apply border border-pk-gold text-pk-gold font-bold py-2 px-4 rounded hover:bg-pk-gold hover:bg-opacity-10 transition-all;
+}
+
+.glow-effect {
+  @apply animate-glow;
+}
+
+.input-field {
+  @apply bg-pk-dark border border-pk-gold rounded px-3 py-2 text-pk-gold focus:outline-none focus:ring-1 focus:ring-pk-gold;
+}
